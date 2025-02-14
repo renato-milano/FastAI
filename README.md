@@ -16,7 +16,7 @@ This repository contains a skeleton for a React-based (using Vite) AI chatbot ap
 - Responsive design
 
 ## Prerequisites
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have the following:
 - [Node.js](https://nodejs.org/) (Latest LTS recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - A Groq API key
