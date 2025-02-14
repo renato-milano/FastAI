@@ -8,9 +8,9 @@ import Sidebar from "../components/Sidebar.jsx";
 
 export const Chat = () => {
   const SystemPrompt = "INSERT YOUR SISTEM PROMPT HERE";
-
   const AvatarAI =
     "INSERT HERE THE PATH OR URL OF THE AVATAR YOU WANT TO USE FOR YOUR AI";
+  const AssistantName = "INSERT HERE THE NAME OF YOUR AI ASSISTANT";
 
   const [Message, setMessage] = useState("");
   const [result, setResult] = useState("");
@@ -50,7 +50,7 @@ export const Chat = () => {
             <>
               <div className="fade-in first flex flex-col items-center justify-center h-[75%]">
                 <div className="text-gray-200 text-opacity-50 text-9xl font-montserrat mb-5">
-                  Hey, AI!
+                  Hey, {AssistantName}!
                 </div>
                 <div className="text-gray-200 text-opacity-50 text-lg font-montserrat">
                   AI Assistant
