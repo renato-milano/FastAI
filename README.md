@@ -1,6 +1,6 @@
 # AI Chatbot with Groq - React App Skeleton
 
-This repository contains a skeleton for a React-based AI chatbot application using Groq. It provides a minimal yet extensible structure to build a chatbot UI and integrate it with Groq's API for AI-powered conversations.
+This repository contains a skeleton for a React-based (using Vite) AI chatbot application using Groq. It provides a minimal yet extensible structure to build a chatbot UI and integrate it with Groq's API for AI-powered conversations.
 
 ## Personal Customization Example
 <div align="center">
