@@ -7,10 +7,9 @@ import remarkGfm from "remark-gfm";
 import Sidebar from "../components/Sidebar.jsx";
 
 export const Chat = () => {
-  const SystemPrompt = "INSERT YOUR SISTEM PROMPT HERE";
-  const AvatarAI =
-    "INSERT HERE THE PATH OR URL OF THE AVATAR YOU WANT TO USE FOR YOUR AI";
-  const AssistantName = "INSERT HERE THE NAME OF YOUR AI ASSISTANT";
+  const SystemPrompt = "YOUR SISTEM PROMPT HERE";
+  const AvatarAI = "THE PATH OR URL OF THE AVATAR YOU WANT TO USE FOR YOUR AI";
+  const AssistantName = "THE NAME OF YOUR AI ASSISTANT";
 
   const [Message, setMessage] = useState("");
   const [result, setResult] = useState("");

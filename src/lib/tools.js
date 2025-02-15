@@ -32,6 +32,8 @@ export const call_tool = async (tool, args) => {
 };
 
 async function nome_funzione(args) {
-    const orderId = args.parametro1;
+    //FETCH DEI PARAMETRI
+    const parametro1 = args.parametro1;
+    const parametro2 = args.parametro2;
     // FA QUALCOSA, RITORNA UNA STRINGA DI RISPOSTA
 }
