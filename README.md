@@ -26,8 +26,8 @@ Before you begin, ensure you have the following:
 ## Installation
 Clone the repository and install dependencies:
 ```sh
-git clone https://github.com/renato-milano/ReactTemplateAI.git
-cd ReactTemplateAI
+git clone https://github.com/renato-milano/FastAI.git
+cd FastAI
 npm install  # or yarn install
 ```
 
